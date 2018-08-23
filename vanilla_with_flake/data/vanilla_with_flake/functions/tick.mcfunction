@@ -22,4 +22,4 @@ execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=81}] at @s run function 
 
 execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=1}] at @s run function vanilla_with_flake:10second
 
-scoreboard players set @p[tag=tick_counter,limit=1,scores={vwf_tick=200..}] vwf_tick 0
+scoreboard players set @a[tag=tick_counter,limit=1,scores={vwf_tick=200..}] vwf_tick 0

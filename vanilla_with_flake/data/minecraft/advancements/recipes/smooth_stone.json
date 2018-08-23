@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "minecraft:smooth_stone"
+        ]
+    },
+    "criteria": {
+        "has_stone_slab": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_slab"
+                    }
+                ]
+            }
+        },
+        "has_smooth_stone_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:smooth_stone"
+            }
+        }
+    },
+        "requirements": [
+            [
+                "has_stone_slab",
+                "has_smooth_stone_recipe"
+            ]
+        ]
+    }

@@ -12,7 +12,7 @@ scoreboard players add @e[type=minecraft:spider] vwf_web_timer 1
 execute as @e[type=minecraft:spider,scores={vwf_web_timer=30..}] at @s run setblock ~ ~ ~ minecraft:cobweb keep
 
 # If the spider's timer is up, make a egg ploping sound
-execute as @e[type=minecraft:spider,scores={vwf_web_timer=30..}] at @s run playsound minecraft:entity.chicken.egg hostile @p ~ ~ ~
+execute as @e[type=minecraft:spider,scores={vwf_web_timer=30..}] at @s run playsound minecraft:entity.chicken.egg hostile @a ~ ~ ~
 
 # If the spider's timer is up, reset it's timer
 scoreboard players set @e[type=minecraft:spider,scores={vwf_web_timer=30..}] vwf_web_timer 0
@@ -25,6 +25,6 @@ scoreboard players add @e[type=minecraft:cave_spider] vwf_web_timer 1
 
 execute as @e[type=minecraft:cave_spider,scores={vwf_web_timer=15..}] at @s run setblock ~ ~ ~ minecraft:cobweb keep
 
-execute as @e[type=minecraft:cave_spider,scores={vwf_web_timer=15..}] at @s run playsound minecraft:entity.chicken.egg hostile @p ~ ~ ~
+execute as @e[type=minecraft:cave_spider,scores={vwf_web_timer=15..}] at @s run playsound minecraft:entity.chicken.egg hostile @a ~ ~ ~
 
 scoreboard players set @e[type=minecraft:cave_spider,scores={vwf_web_timer=15..}] vwf_web_timer 0
