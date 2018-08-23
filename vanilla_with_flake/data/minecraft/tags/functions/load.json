@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "vanilla_with_flake:init"
+    ]
+}
