@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "lig:quartz"
+             "item": "minecraft:quartz_block"
         }
     },
     "result": {

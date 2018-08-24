@@ -1,15 +1,17 @@
-﻿{
+{
     "type": "crafting_shaped",
     "pattern": [
+        "###",
+        "###",
         "###"
     ],
     "key": {
         "#": {
-             "item": "minecraft:purpur_block"
+            "item": "minecraft:rotten_flesh"
         }
     },
     "result": {
-        "item": "minecraft:purpur_slab",
-        "count": 6
+        "item": "minecraft:leather",
+        "count": 1
     }
 }

@@ -3,7 +3,4 @@
 
 # This function is called when the world loads by load.json
 
-scoreboard objectives add vwf_tick dummy "Game Tick"
-
-function vanilla_with_flake:spiders_drop_webs/sdw_init
-#function vanilla_with_flake:zombie_horse/zh_init
+scoreboard objectives add vwf_horse_fire dummy "Horse Fire Tick"
