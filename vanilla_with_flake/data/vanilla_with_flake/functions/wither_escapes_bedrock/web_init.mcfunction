@@ -3,4 +3,6 @@
 
 # This function is called when the world loads by vanilla_with_flake:init
 
-scoreboard objectives add vwf_web_timer dummy "Web Timer"
+scoreboard objectives add vwf_wither_hp dummy "Wither HP"
+
+scoreboard players set tp_hp vwf_wither_hp 150

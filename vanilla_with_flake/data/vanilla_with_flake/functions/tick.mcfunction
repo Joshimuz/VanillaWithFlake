@@ -3,28 +3,11 @@
 
 # This function is called every game tick by tick.json
 
-#function vanilla_with_flake:core/GlowingZombies
-#function vanilla_with_flake:optionals/example
+# Increase the 20Ticks score
+scoreboard players add 20Ticks vwf_tick 1
 
-# Give the tag "tick_counter" to a random player, unless a player already has that tag
-execute as @r unless entity @a[tag=tick_counter] run tag @s add tick_counter
+# Execute 1second function, every 1 second (20 ticks)
+execute if score 20Ticks vwf_tick matches 20 run function vanilla_with_flake:1second
 
-# Give the player with the tag "tick_counter" 1 point in vwf_tick every tick
-scoreboard players add @a[tag=tick_counter] vwf_tick 1
-
-
-#execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=1}] at @s run give @s minecraft:acacia_button 1
-
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=1}] at @s run function vanilla_with_flake:1second
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=21}] at @s run function vanilla_with_flake:1second
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=41}] at @s run function vanilla_with_flake:1second
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=81}] at @s run function vanilla_with_flake:1second
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=101}] at @s run function vanilla_with_flake:1second
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=121}] at @s run function vanilla_with_flake:1second
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=141}] at @s run function vanilla_with_flake:1second
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=161}] at @s run function vanilla_with_flake:1second
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=181}] at @s run function vanilla_with_flake:1second
-
-execute as @e[tag=tick_counter,limit=1,scores={vwf_tick=1}] at @s run function vanilla_with_flake:10second
-
-scoreboard players set @a[tag=tick_counter,limit=1,scores={vwf_tick=200..}] vwf_tick 0
+# Every 20 ticks (1 seconds), reset the 20Ticks score back to 0
+execute if score 20Ticks vwf_tick matches 20 run scoreboard players set 20Ticks vwf_tick 0

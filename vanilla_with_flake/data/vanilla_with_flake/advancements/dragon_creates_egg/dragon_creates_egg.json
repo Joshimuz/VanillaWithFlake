@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "dragon_creates_egg": {
+            "trigger": "minecraft:player_killed_entity",
+        "conditions": 
+        {
+            "entity": 
+            {
+                "type": "minecraft:ender_dragon"
+            }
+        }
+        }
+    },
+    "rewards": {
+        "function": "vanilla_with_flake:dragon_creates_egg/dce_advancement"
+    }
+}
