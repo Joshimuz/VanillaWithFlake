@@ -2,31 +2,31 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "vanilla_with_flake:smooth_stone"
+            "vanilla_with_flake:enchanted_golden_apple"
         ]
     },
     "criteria": {
-        "has_stone_slab": {
+        "has_golden_apple": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_slab"
+                        "item": "minecraft:golden_apple"
                     }
                 ]
             }
         },
-        "has_smooth_stone_recipe": {
+        "has_enchanted_golden_apple_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "vanilla_with_flake:smooth_stone"
+                "recipe": "vanilla_with_flake:enchanted_golden_apple"
             }
         }
     },
         "requirements": [
             [
-                "has_stone_slab",
-                "has_smooth_stone_recipe"
+                "has_golden_apple",
+                "has_enchanted_golden_apple_recipe"
             ]
         ]
     }

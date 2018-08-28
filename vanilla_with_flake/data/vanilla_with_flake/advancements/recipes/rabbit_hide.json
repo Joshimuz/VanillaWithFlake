@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:leather"
+            "vanilla_with_flake:rabbit_hide"
         ]
     },
     "criteria": {
@@ -16,17 +16,17 @@
                 ]
             }
         },
-        "has_leather_recipe": {
+        "has_rabbit_hide_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:leather"
+                "recipe": "vanilla_with_flake:rabbit_hide"
             }
         }
     },
         "requirements": [
             [
                 "has_rotten_flesh",
-                "has_leather_recipe"
+                "has_rabbit_hide_recipe"
             ]
         ]
     }
