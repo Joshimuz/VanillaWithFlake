@@ -7,7 +7,4 @@
 scoreboard players add 20Ticks vwf_tick 1
 
 # Execute 1second function, every 1 second (20 ticks)
-execute if score 20Ticks vwf_tick matches 20 run function vanilla_with_flake:1second
-
-# Every 20 ticks (1 seconds), reset the 20Ticks score back to 0
-execute if score 20Ticks vwf_tick matches 20 run scoreboard players set 20Ticks vwf_tick 0
+execute if score 20Ticks vwf_tick >= 20 vwf_constants run function vanilla_with_flake:1second

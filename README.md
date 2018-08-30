@@ -2,7 +2,6 @@
 A Minecraft datapack to make slight tweaks, restore removed/unused content, and other QOL improvements to Vanilla with simplicity and optimisation in mind.
 
 ## Current change list:
-
 ### Crafting
 - All Stair recipes now yield 8 Stairs instead of 4
 - Enchanted Golden Apple now has a crafting recipe again (8 Golden Blocks surrounding a *Golden Apple*)
@@ -10,35 +9,36 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Smooth Stone now has a crafting recipe (2 Stone Slabs vertically)
 
 ### Items
-- Arrows of Blindness (0:30) are now obtainable through Illusioners *(Note: Seemingly a bug with Arrows of Blindness makes the effect duration 8 times longer than it should be, therefore the Arrows state 4 seconds in their tooltip, however they last 32 seconds)*
+- Arrows of Blindness (0:30) are now obtainable through Illusioners *(Note: Seemingly a bug with custom Arrows makes the effect duration ~8 times longer than it should be, therefore the Arrows state 4 seconds in their tooltip, however they last 30 seconds)*
+- Arrows of Withering (0:10) are now obtainable through Wither Skeletons *(Note: Seemingly a bug with custom Arrows makes the effect duration ~8 times longer than it should be, therefore the Arrows state 1 second in their tooltip, however they last 10 seconds)*
 
 ### Loot tables
-
-#### General
 - Ender Dragons now drop an Elytra upon death (temporary solution to End Dimension issues)
 - Illusioners now drop between 1-3 (4-9 with Looting III) *Arrows of Blindness* when killed by a player
 - Killer Bunnies, in addition to regular Rabbit drops, have a chance to drop Golden Carrots
-
-#### Maps
-- Abandoned Mineshaft chests now have a chance to contain a *Jungle Explorer Map* (Jungle Explorer Map)
-- Husks now have a chance to drop *Ancient Pyramid Map* (Desert Pyramid Explorer Map) when killed by a player
-- Strays now have a chance to drop *Old Frozen Map* (Igloo Explorer Map) when killed by a player
-- Village Blacksmith's chests now contain an *Old Mineshaft Map* (Mineshaft Explorer Map)
-- Witches now have a chance to drop *Witch's Way Home* (Swamp Hut Explorer Map) when killed by a player
-- Zombies now have a chance to drop *Old Mineshaft Map* (Mineshaft Explorer Map) when killed by a player
-- Zombie Pigmen now have a chance to drop *Wonky Nether Fortress Map* (Fortress Explorer Map) when killed by a player
-- Zombie Villagers now have a chance to drop *Villager's Map Home* (Village Explorer Map) when killed by a player
+- Wither Skeletons spawned wielding a bow in place of regular Skeletons in the Nether now have a chance to drop *Arrows of Withering* when killed by a player
+- Added lots of Maps:
+- - Abandoned Mineshaft chests now have a chance to contain a *Jungle Explorer Map* (Jungle Explorer Map)
+- - Husks now have a chance to drop *Ancient Pyramid Map* (Desert Pyramid Explorer Map) when killed by a player
+- - Strays now have a chance to drop *Old Frozen Map* (Igloo Explorer Map) when killed by a player
+- - Village Blacksmith's chests now contain an *Old Mineshaft Map* (Mineshaft Explorer Map)
+- - Witches now have a chance to drop *Witch's Way Home* (Swamp Hut Explorer Map) when killed by a player
+- - Zombies now have a chance to drop *Old Mineshaft Map* (Mineshaft Explorer Map) when killed by a player
+- - Zombie Pigmen now have a chance to drop *Wonky Nether Fortress Map* (Fortress Explorer Map) when killed by a player
+- - Zombie Villagers now have a chance to drop *Villager's Map Home* (Village Explorer Map) when killed by a player
 
 ### Mobs
 - If a Rabbit picks up a Rotten Flesh at night during a full Moon it will turn into a Killer Bunny
 - Illusioners now spawn in Woodland Mansions, for every 5 Vindicators 1 Illusioner spawns
 - Spiders and Cave Spiders now create Cobwebs periodically (Cave Spiders twice as fast as regular)
 - The first time a player kills the Ender Dragon it now spawns a Dragon Egg
+- Wither Skeletons now replace Skeletons in the Nether (Any Wither Skeletons spawned this way now wield bows)
 - Withers now escape Bedrock when they reach 50% Health (This is to nerf killing Withers with Bedrock, but still allow the technique to have a use for making the fight easier and to not break redstone machines that rely upon Bedrock cages)
-
+- When a Squid is damaged it casts Blindness on any entities around them
+---
 ## Current wish-list/not possible list:
-
 ### Blocks
+- Beacon includes Mining Fatigue effect as an option (to protect bases?)
 - Redstone Torches no longer give light updates/emit light
 
 ### Crafting
@@ -51,16 +51,17 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ### Mobs
 - Mobs (Villagers?, Humanoids?) can ride Horses as a passenger, like boats
 - Zombies attack Horses and turn them into Zombie Horses (same as villagers) *(and/or)* Horses stuck by lightning turn into Zombie Horses
- 
+- Wither Skeletons wielding bows use Arrows of Withering (not possible due to [MC-106133](https://bugs.mojang.com/browse/MC-106133), currently the arrow is always on fire instead)
+---
 ## Todo list
-
 ### Effects
 - Implement Bad Luck
 - Implement Blindness (more)
 - Implement Health Boost
 
 ### Items
-- Fix Leashes (They break when far away)
+- Add Trident fixing recipe (Like Phantom Membrane for Elytra, or Iron for Iron Tools/Armour)(Mainly needed if Mending+Fixing Cap is removed)
+- Fix Leads breaking when unloaded (If they even still/ever did that?)
 - Fix Shulker Box rarity problem (Causes huge end worlds to be generated by players for no reason) (Possibly add End City maps?)
 - Implement Missing Potions/Splash Potions/Lingering Potions/Tipped Arrows
 - Implement Rubies

@@ -3,10 +3,11 @@
 
 # This function is called every 1 second by vanilla_with_flake:1second
 
-scoreboard players add 10Minutes vwf_tick 1
+# 10 seconds has elapsed (Because this was called). Reset the 20Ticks score back to 0
+scoreboard players set 10Seconds vwf_tick 0
 
-execute if score 10Minutes vwf_tick matches 10 run function vanilla_with_flake:1minute
+scoreboard players add 60Seconds vwf_tick 10
 
-execute if score 10Minutes vwf_tick matches 10 run scoreboard players set 10Minutes vwf_tick 0
+execute if score 60Seconds vwf_tick >= 60 vwf_constants run function vanilla_with_flake:1minute
 
 function vanilla_with_flake:spiders_drop_webs/sdw_10second
