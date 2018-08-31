@@ -15,5 +15,4 @@ function vanilla_with_flake:illusioner/i_1second
 function vanilla_with_flake:wither_escapes_bedrock/web_1second
 function vanilla_with_flake:killer_bunny/kb_1second
 function vanilla_with_flake:squid_blind/sb_1second
-
-execute as @e[type=minecraft:skeleton, nbt={Dimension:-1}] run function vanilla_with_flake:only_wither_skeletons/skeleton
+function vanilla_with_flake:only_wither_skeletons/ows_1second
