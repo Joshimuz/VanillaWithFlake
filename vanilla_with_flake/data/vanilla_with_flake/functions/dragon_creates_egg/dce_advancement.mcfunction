@@ -1,4 +1,4 @@
-# Joshimuz's Vanilla With Flake datapack for Minecraft 1.13.1
+# Joshimuz's Vanilla With Flake datapack for Minecraft 1.14
 # https://github.com/Joshimuz/VanillaWithFlake
 
 # This function is called when a player kills the ender dragon for the first time

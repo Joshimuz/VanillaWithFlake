@@ -2,31 +2,31 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "vanilla_with_flake:smooth_stone"
+            "vanilla_with_flake:saddle"
         ]
     },
     "criteria": {
-        "has_stone_slab": {
+        "has_leather": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone_slab"
+                        "item": "minecraft:leather"
                     }
                 ]
             }
         },
-        "has_smooth_stone_recipe": {
+        "has_saddle_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "vanilla_with_flake:smooth_stone"
+                "recipe": "vanilla_with_flake:saddle"
             }
         }
     },
         "requirements": [
             [
-                "has_stone_slab",
-                "has_smooth_stone_recipe"
+                "has_leather",
+                "has_saddle_recipe"
             ]
         ]
     }
