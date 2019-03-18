@@ -3,7 +3,7 @@
 
 # This function is called every 1 second by vanilla_with_flake:1second
 
-# 10 seconds has elapsed (Because this was called). Reset the 20Ticks score back to 0
+# 10 seconds has elapsed (Because this was called). Reset the 10Seconds score back to 0
 scoreboard players set 10Seconds vwf_tick 0
 
 scoreboard players add 60Seconds vwf_tick 10

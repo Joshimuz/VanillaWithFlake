@@ -9,7 +9,7 @@
 scoreboard players add @e[type=minecraft:spider] vwf_web_timer 1
 
 # If the spider's timer is up, make a cobweb if position is air
-execute as @e[type=minecraft:spider,scores={vwf_web_timer=30..}] at @s run function vanilla_with_flake:spiders_drop_webs/sdw_spider
+execute as @e[type=minecraft:spider,scores={vwf_web_timer=60..}] at @s run function vanilla_with_flake:spiders_drop_webs/sdw_spider
 
 
 ### Make Cave Spiders create cobwebs every 2.5 minutes ###

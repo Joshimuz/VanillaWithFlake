@@ -4,6 +4,8 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ## Current change list:
 ### Crafting
 - Enchanted Golden Apple now has a crafting recipe again (8 Golden Blocks surrounding a *Golden Apple*)
+- Horse Armour (Iron/Gold/Diamond) is now craftable, with the same crafting recipe as Leather Horse Armour but with the appropriate material
+- Leads no longer require Slimeballs, instead need 5 String in the original shape
 - Rabbit Hide now has a crafting recipe (9 Rotten Flesh, this allows 36 Rotten Flesh to be crafted into 1 Leather)
 - Saddles now have the [originally intended crafting recipe](https://minecraft.gamepedia.com/Java_Edition_removed_features#Horse_saddle) for "Horse Saddles"
 
@@ -28,6 +30,10 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - - Zombie Villagers now have a chance to drop *Villager's Map Home* (Village Explorer Map) when killed by a player
 - Removed Saddles from Fishing's Treasure, Abandoned Mineshaft, Desert Temple, End City, Jungle Temple, Nether Fortress, Dungeon and Stronghold Loot tables. (It remains in Villager Trades, Villager Buildings and Illager Beast loot tables)
 
+### Mechanics
+- Added Bad Luck mechanic to Fishing 
+- - Fishing a lot in a short span of time exponentially increases your Bad Luck, which makes your fishing loot worse. This is to both simulate overfishing in one area and to nerf AFK fishing farms (mainly the latter).
+
 ### Mobs
 - If a Rabbit picks up a Rotten Flesh at night during a full Moon it will turn into a Killer Bunny
 - Illusioners now spawn in Woodland Mansions, for every 5 Vindicators 1 Illusioner spawns
@@ -39,9 +45,9 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ---
 ## Current wish-list/not possible list:
 ### Items
-- Add missing Leather Horse Armour (from Bedrock version)
 - Add alternate Hopper that doesn't attempt to suck items from above it (To reduce lag when just a pipe is needed)
 - - Perhaps with glass instead of iron? To make a tube?
+- Add Raw Horse and Raw Donkey (And Cooked versions) as their own meat types
 
 ### Blocks
 - Beacon includes Mining Fatigue effect as an option (to protect bases?)
@@ -55,11 +61,17 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 
 ### Mechanics
 - Remove Mending, and remove the repair penalty/anvil use count for Repairing items (so lategame diamonds have meaning again, instead of using an XP farm to fix items)
+- Increase maximum Minecart Speed
 
 ### Mobs
 - Mobs (Villagers?, Humanoids?) can ride Horses as a passenger, like boats
 - Zombies attack Horses and turn them into Zombie Horses (same as villagers) *(and/or)* Horses stuck by lightning turn into Zombie Horses
 - Wither Skeletons wielding bows use Arrows of Withering (not possible due to [MC-106133](https://bugs.mojang.com/browse/MC-106133), currently the arrow is always on fire instead)
+- [Phantoms only appear to the player they are attacking](https://www.reddit.com/r/minecraftsuggestions/comments/a6vrua/only_the_players_who_havent_slept_can_see_hear/)
+
+### Loot Tables
+- Horses and Donkeys drop Raw Horse and Raw Donkey, respectively
+- - Raw Horse and Raw Donkey could just be renamed Raw Mutton, and Cooked Horse/Donkey can be dropped if killed while on fire, however Furnaces cannot rename items, so cooking Horse/Donkey would just result in Mutton
 
 ### GUI
 - Visual Shulkerbox contents tooltip
@@ -67,8 +79,9 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ## Todo list
 ### Effects
 - Implement Bad Luck
-- - Use Bad Luck to nerf AFK fishing, by increasing the player's bad luck overtime when fishing
-- Implement Blindness (more)
+- - Currently used with Bad Luck Fishing, but would be good to implement more along with the other effects
+- Implement Blindness
+- - Currently used by Squids, but would be good to implement more along with the other effects
 - Implement Health Boost
 
 ### Items
@@ -79,12 +92,13 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Implement Missing Potions/Splash Potions/Lingering Potions/Tipped Arrows
 - Implement Rubies
 - Both Blue Orchids and Dandelions give Saturation in the Suspicious Stew, instead make Blue Orchid give a [Health Boost](https://minecraft.gamepedia.com/Java_Edition_unused_features#Health_Boost)?
-- Make Wither Skeletons less RNG based/more fun to collect?
-
-### Mechanics
-- Nerf AFK Fishing (The more you fish the worse the rewards? (The water runs out of fish))
+- Make Wither Skulls less RNG based/more fun to collect?
+- Make Totem of Undying actually useful
+- - [This suggestion is one way](https://www.reddit.com/r/minecraftsuggestions/comments/944co2/totems_of_undying_are_not_worth_getting_here_is/)
+- - Another is to make the Totem consumable like a Potion, giving the player a permanent effect which revives them on death once (to remove the need to be holding it at time of death) However this doesn't solve the rarity issue
 
 ### Mobs
+- [Drowned occasionally spawn wearing a Turtle Shell](https://www.reddit.com/r/minecraftsuggestions/comments/b2cb7c/drowned_should_have_a_chance_of_spawning_with_a/)
 - Implement Giants (Probably not...)
 - Implement Zombie Horses (And give them a purpose)
 - Shulkers respawn naturally (Over time, on killing Dragon?)
@@ -93,12 +107,15 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Implement missing environment sounds (Birds chirping during day, owls and crickets at night, etc)
 - Make untamed Wolves howl occasionally (Perhaps one after the other in packs?)
 ---
-## Old changes which were implemented into official release (thus removed)
+## Old changes which were implemented into official release (thus removed from datapack or plans)
 ### Crafting
-- All Stair recipes now yield 8 Stairs instead of 4 
+- All Stair recipes now yield 8 Stairs instead of 4
 - - [19w04a](https://minecraft.gamepedia.com/19w04a) added Stonecutter which gives 1 Stair for 1 Block
 - Smooth Stone now has a crafting recipe (2 Stone Slabs vertically)
 - - [1.14](https://minecraft.gamepedia.com/1.14) added this block into survival 
+
+### Items
+- Add missing Leather Horse Armour (from Bedrock version)
 
 ### Loot tables
 - Village Blacksmith's chests now contain an *Old Mineshaft Map* (Mineshaft Explorer Map)
