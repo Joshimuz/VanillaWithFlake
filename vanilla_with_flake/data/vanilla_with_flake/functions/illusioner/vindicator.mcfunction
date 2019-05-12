@@ -13,7 +13,7 @@ scoreboard players set @s vwf_illu_count 5
 scoreboard players add vwf vwf_illu_count 1
 
 # If the global counter is 5, summon an illusioner and give it the "loot" tag and loot table
-execute at @s if score @s vwf_illu_count <= vwf vwf_illu_count run summon minecraft:illusioner ~ ~ ~ {Tags:["loot"],DeathLootTable:"vanilla_with_flake:entities/illusioner"}
+execute at @s if score @s vwf_illu_count <= vwf vwf_illu_count run summon minecraft:illusioner ~ ~ ~ {PersistenceRequired:1}
 
 # If the global counter is 5, reset the global counter
 execute if score @s vwf_illu_count <= vwf vwf_illu_count run scoreboard players reset vwf vwf_illu_count

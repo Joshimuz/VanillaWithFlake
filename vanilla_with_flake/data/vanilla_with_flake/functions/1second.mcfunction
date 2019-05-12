@@ -11,7 +11,6 @@ scoreboard players add 10Seconds vwf_tick 1
 # Execute 10second function, every 10 seconds (200 ticks)
 execute if score 10Seconds vwf_tick >= 10 vwf_constants run function vanilla_with_flake:10second
 
-function vanilla_with_flake:illusioner/i_1second
 function vanilla_with_flake:wither_escapes_bedrock/web_1second
 function vanilla_with_flake:killer_bunny/kb_1second
 function vanilla_with_flake:squid_blind/sb_1second

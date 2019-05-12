@@ -8,5 +8,6 @@ scoreboard players set 60Seconds vwf_tick 0
 
 function vanilla_with_flake:moon_phase/mp_1minute
 function vanilla_with_flake:bad_luck_fishing/blf_1minute
+function vanilla_with_flake:illusioner/i_1minute
 
 #function vanilla_with_flake:remove_empty_boats/reb_1minute
