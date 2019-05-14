@@ -2,6 +2,7 @@
 A Minecraft datapack to make slight tweaks, restore removed/unused content, and other QOL improvements to Vanilla with simplicity and optimisation in mind. This version is made for 1.14+
 
 ## Change List
+- Bamboo is craftable into Paper (3 Bamboo for 1 Paper)
 - Enchanted Golden Apple has a crafting recipe (8 Golden Blocks surrounding a Golden Apple)
 - Ender Dragon 
 - - Creates Dragon Egg on a players first kill
@@ -11,7 +12,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Horse Armour (Iron/Gold/Diamond) has a crafting recipe (Same as Leather Horse Armour but with relevant mineral instead of leather)
 - Illusioners
 - - Drop 1-3 (4-9 with Looting III) Arrows of Blindness (0:30) when killed by a player
-- - Spawn with Vindicators
+- - Spawn with Vindicators. Partake in Raids, Patrols, or just spawn inside Woodland Mansions
 - Killer Bunnies
 - - When a Rabbit picks up a Rotten Flesh during a full Moon it turns into a Killer Bunny
 - Leads no longer require Slimeballs (Just 5 String in the original shape)

@@ -6,11 +6,12 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Enchanted Golden Apple now has a crafting recipe again (8 Golden Blocks surrounding a *Golden Apple*)
 - Horse Armour (Iron/Gold/Diamond) is now craftable, with the same crafting recipe as Leather Horse Armour but with the appropriate material
 - Leads no longer require Slimeballs, instead need 5 String in the original shape
+- Paper can now be crafted with Bamboo (3 Bamboo for 1 Paper)
 - Rabbit Hide now has a crafting recipe (9 Rotten Flesh, this allows 36 Rotten Flesh to be crafted into 1 Leather)
 - Saddles now have the [originally intended crafting recipe](https://minecraft.gamepedia.com/Java_Edition_removed_features#Horse_saddle) for "Horse Saddles"
 
 ### Items
-- Arrows *(Note: Seemingly a bug with custom Arrows makes the effect duration ~8 times longer than it should be. For example: the arrow may state 1 second in their tooltip, however they last 10 seconds)*
+- Arrows *(Note: A bug with custom Arrows makes the effect duration ~8 times longer than it should be. For example: the arrow may state 1 second in their tooltip, however they last 10 seconds)* *(Note: A bug with Arrows losing their custom names means that these arrows are just called "Arrow of Splashing")*
 - - Arrows of Blindness (0:30) are now obtainable through Illusioners
 - - Arrows of Withering (0:10) are now obtainable through Wither Skeletons
 
@@ -28,6 +29,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ### Mobs
 - If a Rabbit picks up a Rotten Flesh at night during a full Moon it will turn into a Killer Bunny
 - Illusioners now spawn naturally, for every 5 Vindicators 1 Illusioner spawns
+- - They also copy the Raid/Patrol/Persistence NBT of the Vindicator that spawned them (meaning they partake in Raids and Patrols if spawned in one)
 - Shulkers spawn (5 of them) when the Ender Dragon is respawned, to guard some End Crystals (Too add a different/renewable (other than generating GBs of pointless End) way of getting Shulker Shells)
 - Spiders and Cave Spiders now create Cobwebs periodically (Cave Spiders twice as fast as regular)
 - The first time a player kills the Ender Dragon it now spawns a Dragon Egg (So 1 per player)

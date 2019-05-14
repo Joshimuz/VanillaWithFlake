@@ -2,16 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "vanilla_with_flake:enchanted_golden_apple"
+            "vanilla_with_flake:paper"
         ]
     },
     "criteria": {
-        "has_golden_apple": {
+        "has_bamboo": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_apple"
+                        "item": "minecraft:bamboo"
                     }
                 ]
             }
@@ -19,7 +19,7 @@
     },
         "requirements": [
             [
-                "has_golden_apple"
+                "has_bamboo"
             ]
         ]
     }

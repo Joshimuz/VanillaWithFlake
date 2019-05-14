@@ -15,18 +15,11 @@
           }
         ]
       }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "vanilla_with_flake:golden_horse_armor"
-      }
     }
   },
   "requirements": [
     [
-      "has_gold_ingot",
-      "has_the_recipe"
+      "has_gold_ingot"
     ]
   ]
 }

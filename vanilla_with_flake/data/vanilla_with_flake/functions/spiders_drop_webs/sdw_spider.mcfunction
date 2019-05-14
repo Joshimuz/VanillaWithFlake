@@ -10,4 +10,4 @@ setblock ~ ~ ~ minecraft:cobweb keep
 playsound minecraft:entity.chicken.egg hostile @a ~ ~ ~
 
 # If the spider's timer is up, reset it's timer
-scoreboard players set @s vwf_web_timer 0
+scoreboard players reset @s vwf_web_timer

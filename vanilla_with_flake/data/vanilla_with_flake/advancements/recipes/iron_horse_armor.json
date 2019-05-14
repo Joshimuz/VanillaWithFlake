@@ -15,18 +15,11 @@
           }
         ]
       }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "vanilla_with_flake:iron_horse_armor"
-      }
     }
   },
   "requirements": [
     [
-      "has_iron_ingot",
-      "has_the_recipe"
+      "has_iron_ingot"
     ]
   ]
 }

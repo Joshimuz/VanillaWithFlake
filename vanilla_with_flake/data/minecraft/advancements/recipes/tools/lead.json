@@ -15,18 +15,11 @@
           }
         ]
       }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:lead"
-      }
     }
   },
   "requirements": [
     [
-      "has_string",
-      "has_the_recipe"
+      "has_string"
     ]
   ]
 }

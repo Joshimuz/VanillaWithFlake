@@ -15,18 +15,11 @@
                     }
                 ]
             }
-        },
-        "has_saddle_recipe": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "vanilla_with_flake:saddle"
-            }
         }
     },
         "requirements": [
             [
-                "has_leather",
-                "has_saddle_recipe"
+                "has_leather"
             ]
         ]
     }

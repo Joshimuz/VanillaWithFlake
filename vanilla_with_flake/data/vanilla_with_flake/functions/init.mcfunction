@@ -3,12 +3,6 @@
 
 # This function is called when the world loads by load.json
 
-scoreboard objectives add vwf_constants dummy "Constant Values"
-scoreboard players set 10 vwf_constants 10
-scoreboard players set 20 vwf_constants 20
-scoreboard players set 60 vwf_constants 60
-
-
 scoreboard objectives add vwf_tick dummy "Game Tick"
 
 function vanilla_with_flake:spiders_drop_webs/sdw_init

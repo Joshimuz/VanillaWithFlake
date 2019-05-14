@@ -97,7 +97,7 @@
 					},
 					{
 						"function": "set_nbt",
-						"tag" :"{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:20,Duration:200}],display:{Name:\"{\\\"text\\\":\\\"Arrow of Withering\\\",\\\"italic\\\":false}\"}}"
+						"tag" :"{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:20,Duration:200}]}"
 						}
 				]
 			}

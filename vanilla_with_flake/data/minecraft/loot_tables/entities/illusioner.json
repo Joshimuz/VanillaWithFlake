@@ -51,7 +51,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:15,Duration:600}],display:{Name:\"{\\\"text\\\":\\\"Arrow of Blindness\\\",\\\"italic\\\":false}\"}}"
+                            "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:15,Duration:600}]}"
                         }
                     ]
                 }

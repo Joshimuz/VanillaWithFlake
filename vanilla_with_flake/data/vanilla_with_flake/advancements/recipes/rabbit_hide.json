@@ -15,18 +15,11 @@
                     }
                 ]
             }
-        },
-        "has_rabbit_hide_recipe": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "vanilla_with_flake:rabbit_hide"
-            }
         }
     },
         "requirements": [
             [
-                "has_rotten_flesh",
-                "has_rabbit_hide_recipe"
+                "has_rotten_flesh"
             ]
         ]
     }
