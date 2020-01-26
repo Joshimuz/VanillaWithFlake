@@ -43,6 +43,8 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - - Perhaps with glass instead of iron? To make a tube?
 - Add Raw Horse and Raw Donkey (And Cooked versions) as their own meat types
 - Horseshoe that gives good luck when held (like in your offhand)
+- Add an item for determining height/depth, instead of needing to use debug screen to see
+- - Some kind of Compass light device that you can visually look at in your hand
 
 ### Blocks
 - Beacon includes Mining Fatigue effect as an option (to protect bases?)
