@@ -1,4 +1,4 @@
-# Joshimuz's Vanilla With Flake datapack for Minecraft 1.14
+# Joshimuz's Vanilla With Flake datapack
 # https://github.com/Joshimuz/VanillaWithFlake
 
 # This function is called every 1 second by vanilla_with_flake:tick

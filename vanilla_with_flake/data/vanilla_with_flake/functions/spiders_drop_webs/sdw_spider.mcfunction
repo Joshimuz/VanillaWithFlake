@@ -1,4 +1,4 @@
-# Joshimuz's Vanilla With Flake datapack for Minecraft 1.14
+# Joshimuz's Vanilla With Flake datapack
 # https://github.com/Joshimuz/VanillaWithFlake
 
 # This function is called by sdw_10second whenever the spider's web timer is up

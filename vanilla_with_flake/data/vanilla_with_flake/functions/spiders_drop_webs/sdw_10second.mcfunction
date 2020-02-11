@@ -1,9 +1,9 @@
-# Joshimuz's Vanilla With Flake datapack for Minecraft 1.14
+# Joshimuz's Vanilla With Flake datapack
 # https://github.com/Joshimuz/VanillaWithFlake
 
-# This function is called every 10 seconds by vanilla_with_flake:1second
+# This function is called every 10 seconds by vanilla_with_flake:10second
 
-### Make Spiders create cobwebs every 5 minutes ###
+### Make Spiders create cobwebs every 10 minutes ###
 
 # Add 1 to a timer to every spider
 scoreboard players add @e[type=minecraft:spider] vwf_web_timer 1

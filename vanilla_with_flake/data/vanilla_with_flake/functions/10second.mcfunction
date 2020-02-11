@@ -1,4 +1,4 @@
-# Joshimuz's Vanilla With Flake datapack for Minecraft 1.14
+# Joshimuz's Vanilla With Flake datapack
 # https://github.com/Joshimuz/VanillaWithFlake
 
 # This function is called every 1 second by vanilla_with_flake:1second
@@ -12,3 +12,4 @@ execute if score 60Seconds vwf_tick matches 60.. run function vanilla_with_flake
 
 function vanilla_with_flake:spiders_drop_webs/sdw_10second
 function vanilla_with_flake:illusioner/i_10second
+function vanilla_with_flake:only_wither_skeletons/ows_10second
