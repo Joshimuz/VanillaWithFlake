@@ -15,7 +15,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - - Spawn with Vindicators. Partake in Raids, Patrols, or just spawn inside Woodland Mansions
 - Killer Bunnies
 - - When a Rabbit picks up a Rotten Flesh during a full Moon it turns into a Killer Bunny
-- Leads no longer require Slimeballs (Just 5 String in the original shape)
+- Leads can also be made with Honey Bottles instead of Slime Balls
 - Rotten Flesh can be crafted into Rabbit Hide (9 Rotten Flesh)
 - Saddles now have the [originally intended crafting recipe](https://minecraft.gamepedia.com/Java_Edition_removed_features#Horse_saddle) for 
    "Horse Saddles" and haven been removed from almost all Loot Tables

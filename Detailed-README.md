@@ -5,7 +5,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ### Crafting
 - Enchanted Golden Apple now has a crafting recipe again (8 Golden Blocks surrounding a *Golden Apple*)
 - Horse Armour (Iron/Gold/Diamond) is now craftable, with the same crafting recipe as Leather Horse Armour but with the appropriate material
-- Leads no longer require Slimeballs, instead need 5 String in the original shape
+- Leads can also be made with Honey Bottles instead of Slime Balls
 - Paper can now be crafted with Bamboo (3 Bamboo for 1 Paper)
 - Rabbit Hide now has a crafting recipe (9 Rotten Flesh, this allows 36 Rotten Flesh to be crafted into 1 Leather)
 - Saddles now have the [originally intended crafting recipe](https://minecraft.gamepedia.com/Java_Edition_removed_features#Horse_saddle) for "Horse Saddles"
@@ -121,7 +121,9 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - All Stair recipes now yield 8 Stairs instead of 4
 - - [19w04a](https://minecraft.gamepedia.com/19w04a) added Stonecutter which gives 1 Stair for 1 Block
 - Smooth Stone now has a crafting recipe (2 Stone Slabs vertically)
-- - [1.14](https://minecraft.gamepedia.com/1.14) added this block into survival 
+- - [1.14](https://minecraft.gamepedia.com/Java_Edition_1.14) added this block into survival
+- Leads no longer require Slimeballs, instead need 5 String in the original shape
+- - [1.15](https://minecraft.gamepedia.com/Java_Edition_1.15) added Honey Blocks which is an alternative to Slime Blocks (albeit with slightly different properties) so instead of only requiring string added Honey Bottle as option along with Slime Ball.
 
 ### Items
 - Add missing Leather Horse Armour (from Bedrock version)
