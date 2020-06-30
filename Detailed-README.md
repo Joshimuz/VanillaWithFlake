@@ -12,8 +12,8 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 
 ### Items
 - Arrows *(Note: A bug with custom Arrows makes the effect duration ~8 times longer than it should be. For example: the arrow may state 1 second in their tooltip, however they last 10 seconds)* *(Note: A bug with Arrows losing their custom names means that these arrows are just called "Arrow of Splashing")*
-- - Arrows of Blindness (0:30) are now obtainable through Illusioners
-- - Arrows of Withering (0:10) are now obtainable through Wither Skeletons
+  - Arrows of Blindness (0:30) are now obtainable through Illusioners
+  - Arrows of Withering (0:10) are now obtainable through Wither Skeletons
 
 ### Loot tables
 - Ender Dragons now drop an Elytra upon death (temporary solution to End Dimension issues)
@@ -24,12 +24,12 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 
 ### Mechanics
 - Added Bad Luck mechanic to Fishing 
-- - Fishing a lot in a short span of time exponentially increases your Bad Luck, which makes your fishing loot worse. This is to both simulate overfishing in one area and to nerf AFK fishing farms (mainly the latter).
+  - Fishing a lot in a short span of time exponentially increases your Bad Luck, which makes your fishing loot worse. This is to both simulate overfishing in one area and to nerf AFK fishing farms (mainly the latter).
 
 ### Mobs
 - If a Rabbit picks up a Rotten Flesh at night during a full Moon it will turn into a Killer Bunny
 - Illusioners now spawn naturally, for every 5 Vindicators 1 Illusioner spawns
-- - They also copy the Raid/Patrol/Persistence NBT of the Vindicator that spawned them (meaning they partake in Raids and Patrols if spawned in one)
+  - They also copy the Raid/Patrol/Persistence NBT of the Vindicator that spawned them (meaning they partake in Raids and Patrols if spawned in one)
 - Shulkers spawn (5 of them) when the Ender Dragon is respawned, to guard some End Crystals (Too add a different/renewable (other than generating GBs of pointless End) way of getting Shulker Shells)
 - Spiders and Cave Spiders now create Cobwebs periodically (Cave Spiders twice as fast as regular)
 - The first time a player kills the Ender Dragon it now spawns a Dragon Egg (So 1 per player)
@@ -40,11 +40,11 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ## Current wish-list/not possible list:
 ### Items
 - Add alternate Hopper that doesn't attempt to suck items from above it (To reduce lag when just a pipe is needed)
-- - Perhaps with glass instead of iron? To make a tube?
+  - Perhaps with glass instead of iron? To make a tube?
 - Add Raw Horse and Raw Donkey (And Cooked versions) as their own meat types
 - Horseshoe that gives good luck when held (like in your offhand)
 - Add an item for determining height/depth, instead of needing to use debug screen to see
-- - Some kind of Compass light device that you can visually look at in your hand
+  - Some kind of Compass light device that you can visually look at in your hand
 
 ### Blocks
 - Beacon includes Mining Fatigue effect as an option (to protect bases?)
@@ -67,16 +67,16 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 
 ### Loot Tables
 - Horses and Donkeys drop Raw Horse and Raw Donkey, respectively
-- - Raw Horse and Raw Donkey could just be renamed Raw Mutton, and Cooked Horse/Donkey can be dropped if killed while on fire, however Furnaces cannot rename items, so cooking Horse/Donkey would just result in Mutton
+  - Raw Horse and Raw Donkey could just be renamed Raw Mutton, and Cooked Horse/Donkey can be dropped if killed while on fire, however Furnaces cannot rename items, so cooking Horse/Donkey would just result in Mutton
 - Added lots of Maps: (Had to remove because of maps not correctly generating as causing lag spikes)
-- - Abandoned Mineshaft chests now have a chance to contain a *Jungle Explorer Map* (Jungle Explorer Map)
-- - Husks now have a chance to drop *Ancient Pyramid Map* (Desert Pyramid Explorer Map) when killed by a player
-- - Strays now have a chance to drop *Old Frozen Map* (Igloo Explorer Map) when killed by a player
-- - Village Cartographer's chests now contain an *Old Mineshaft Map* (Mineshaft Explorer Map)
-- - Witches now have a chance to drop *Witch's Way Home* (Swamp Hut Explorer Map) when killed by a player
-- - Zombies now have a chance to drop *Old Mineshaft Map* (Mineshaft Explorer Map) when killed by a player
-- - Zombie Pigmen now have a chance to drop *Wonky Nether Fortress Map* (Fortress Explorer Map) when killed by a player
-- - Zombie Villagers now have a chance to drop *Villager's Map Home* (Village Explorer Map) when killed by a player
+  - Abandoned Mineshaft chests now have a chance to contain a *Jungle Explorer Map* (Jungle Explorer Map)
+  - Husks now have a chance to drop *Ancient Pyramid Map* (Desert Pyramid Explorer Map) when killed by a player
+  - Strays now have a chance to drop *Old Frozen Map* (Igloo Explorer Map) when killed by a player
+  - Village Cartographer's chests now contain an *Old Mineshaft Map* (Mineshaft Explorer Map)
+  - Witches now have a chance to drop *Witch's Way Home* (Swamp Hut Explorer Map) when killed by a player
+  - Zombies now have a chance to drop *Old Mineshaft Map* (Mineshaft Explorer Map) when killed by a player
+  - Zombie Pigmen now have a chance to drop *Wonky Nether Fortress Map* (Fortress Explorer Map) when killed by a player
+  - Zombie Villagers now have a chance to drop *Villager's Map Home* (Village Explorer Map) when killed by a player
 
 ### GUI
 - Visual Shulkerbox contents tooltip
@@ -84,9 +84,9 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ## Todo list
 ### Effects
 - Implement Bad Luck
-- - Currently used with Bad Luck Fishing, but would be good to implement more along with the other effects
+  - Currently used with Bad Luck Fishing, but would be good to implement more along with the other effects
 - Implement Blindness
-- - Currently used by Squids, but would be good to implement more along with the other effects
+  - Currently used by Squids, but would be good to implement more along with the other effects
 - Implement Health Boost
 
 ### Items
@@ -99,8 +99,8 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Both Blue Orchids and Dandelions give Saturation in the Suspicious Stew, instead make Blue Orchid give a [Health Boost](https://minecraft.gamepedia.com/Java_Edition_unused_features#Health_Boost)?
 - Make Wither Skulls less RNG based/more fun to collect?
 - Make Totem of Undying actually useful
-- - [This suggestion is one way](https://www.reddit.com/r/minecraftsuggestions/comments/944co2/totems_of_undying_are_not_worth_getting_here_is/)
-- - Another is to make the Totem consumable like a Potion, giving the player a permanent effect which revives them on death once (to remove the need to be holding it at time of death) However this doesn't solve the rarity issue
+  - [This suggestion is one way](https://www.reddit.com/r/minecraftsuggestions/comments/944co2/totems_of_undying_are_not_worth_getting_here_is/)
+  - Another is to make the Totem consumable like a Potion, giving the player a permanent effect which revives them on death once (to remove the need to be holding it at time of death) However this doesn't solve the rarity issue
 - Give Axes Looting
 
 ### Mobs
@@ -115,20 +115,20 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ## Old changes which were implemented into official release (thus removed from datapack or plans)
 ### Blocks
 - Make Piston a Pickaxe tool block (instead of having no tool needed)
-- - [20w06a](https://minecraft.gamepedia.com/Java_Edition_20w06a) "Pickaxes are now more efficient on pistons"
+  - [20w06a](https://minecraft.gamepedia.com/Java_Edition_20w06a) "Pickaxes are now more efficient on pistons"
 
 ### Crafting
 - All Stair recipes now yield 8 Stairs instead of 4
-- - [19w04a](https://minecraft.gamepedia.com/19w04a) added Stonecutter which gives 1 Stair for 1 Block
+  - [19w04a](https://minecraft.gamepedia.com/19w04a) added Stonecutter which gives 1 Stair for 1 Block
 - Smooth Stone now has a crafting recipe (2 Stone Slabs vertically)
-- - [1.14](https://minecraft.gamepedia.com/Java_Edition_1.14) added this block into survival
+  - [1.14](https://minecraft.gamepedia.com/Java_Edition_1.14) added this block into survival
 - Leads no longer require Slimeballs, instead need 5 String in the original shape
-- - [1.15](https://minecraft.gamepedia.com/Java_Edition_1.15) added Honey Blocks which is an alternative to Slime Blocks (albeit with slightly different properties) so instead of only requiring string added Honey Bottle as option along with Slime Ball.
+  - [1.15](https://minecraft.gamepedia.com/Java_Edition_1.15) added Honey Blocks which is an alternative to Slime Blocks (albeit with slightly different properties) so instead of only requiring string added Honey Bottle as option along with Slime Ball.
 
 ### Items
 - Add missing Leather Horse Armour (from Bedrock version)
 
 ### Loot tables
 - Village Blacksmith's chests now contain an *Old Mineshaft Map* (Mineshaft Explorer Map)
-- - [1.14](https://minecraft.gamepedia.com/1.14) changed villages, and removed the generic Blacksmith building
-- - The map spawn was moved to the Cartographer's building instead
+  - [1.14](https://minecraft.gamepedia.com/1.14) changed villages, and removed the generic Blacksmith building
+  - The map spawn was moved to the Cartographer's building instead
