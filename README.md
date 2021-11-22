@@ -9,6 +9,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Paper can now be crafted with Bamboo (3 Bamboo for 1 Paper)
 - Rabbit Hide now has a crafting recipe (9 Rotten Flesh, this allows 36 Rotten Flesh to be crafted into 1 Leather)
 - Saddles now have the [originally intended crafting recipe](https://minecraft.gamepedia.com/Java_Edition_removed_features#Horse_saddle) for "Horse Saddles"
+- 4 String can now be crafted from a Wool Block (allowing for uncrafting Wool blocks from string)
 
 ### Items
 - Arrows *(Note: A bug with custom Arrows makes the effect duration ~8 times longer than it should be. For example: the arrow may state 1 second in their tooltip, however they last 10 seconds)* *(Note: A bug with Arrows losing their custom names means that these arrows are just called "Arrow of Splashing")*
@@ -19,6 +20,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Ender Dragons now drop an Elytra upon death (temporary solution to End Dimension issues)
 - Illusioners now drop between 1-3 (4-9 with Looting III) *Arrows of Blindness* when killed by a player
 - Killer Bunnies, in addition to regular Rabbit drops, have a chance to drop Golden Carrots
+- Leads can now be found while Fishing
 - Wither Skeletons spawned wielding a bow in place of regular Skeletons in the Nether now have a chance to drop *Arrows of Withering* when killed by a player
 - Removed Saddles from Fishing's Treasure, Abandoned Mineshaft, Desert Temple, End City, Jungle Temple, Nether Fortress, Dungeon and Stronghold Loot tables. (It remains in Villager Trades, Villager Buildings and Illager Beast loot tables)
 
