@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "vanilla_with_flake:string"
+        ]
+    },
+    "criteria": {
+        "has_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:wool"
+                    }
+                ]
+            }
+        }
+    },
+        "requirements": [
+            [
+                "has_wool"
+            ]
+        ]
+    }
