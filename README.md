@@ -12,7 +12,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - 4 String can now be crafted from a Wool Block (allowing for uncrafting Wool blocks from string)
 
 ### Items
-- Arrows *(Note: A bug with custom Arrows makes the effect duration ~8 times longer than it should be. For example: the arrow may state 1 second in their tooltip, however they last 10 seconds)* *(Note: A bug with Arrows losing their custom names means that these arrows are just called "Arrow of Splashing")*
+- Arrows *(Note: A bug with custom Arrows makes the effect duration ~8 times longer than it should be. For example: the arrow may state 1 second in their tooltip, however they last 10 seconds)* *(Note: [A bug with Arrows losing their custom names](https://bugs.mojang.com/browse/MC-1981) means that these arrows are just called "Arrow of Splashing")*
   - Arrows of Blindness (0:30) are now obtainable through Illusioners
   - Arrows of Withering (0:10) are now obtainable through Wither Skeletons
 
@@ -38,6 +38,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
   - Cave Spiders create a Cobweb *Block* every 2.5 minutes
 - The first time a player kills the Ender Dragon it now spawns a Dragon Egg (So 1 per player)
 - Wither Skeletons now replace Skeletons in the Nether (Any Wither Skeletons spawned this way now wield bows)
+  - *(Note: [A bug with Wither Skeletons always shooting fire arrows](https://bugs.mojang.com/browse/MC-64081) means that for the time being they do not shoot Arrows of Withering, as both Burning and Withering is a bit much, instead they simply drop Arrows of Withering instead)*
 - Withers now escape Bedrock when they reach 50% Health (This is to nerf killing Withers with Bedrock, but still allow the technique to have a use for making the fight easier and to not break redstone machines that rely upon Bedrock cages)
 - When a Squid is damaged it casts Blindness on any entities around them
 ---
@@ -118,7 +119,6 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ### Mobs
 - Mobs (Villagers?, Humanoids?) can ride Horses as a passenger, like boats
 - Zombies attack Horses and turn them into Zombie Horses (same as villagers) *(and/or)* Horses stuck by lightning turn into Zombie Horses
-- Wither Skeletons wielding bows use Arrows of Withering (not possible due to [MC-106133](https://bugs.mojang.com/browse/MC-106133), currently the arrow is always on fire instead)
 - [Phantoms only appear to the player they are attacking](https://www.reddit.com/r/minecraftsuggestions/comments/a6vrua/only_the_players_who_havent_slept_can_see_hear/)
 
 ### Loot Tables
