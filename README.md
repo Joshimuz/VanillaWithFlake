@@ -8,7 +8,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Leads can also be made with Honey Bottles instead of Slime Balls
 - Paper can now be crafted with Bamboo (3 Bamboo for 1 Paper)
 - Rabbit Hide now has a crafting recipe (9 Rotten Flesh, this allows 36 Rotten Flesh to be crafted into 1 Leather)
-- Saddles now have the [originally intended crafting recipe](https://minecraft.gamepedia.com/Java_Edition_removed_features#Horse_saddle) for "Horse Saddles"
+- Saddles now have the [originally intended crafting recipe](https://minecraft.fandom.com/wiki/Java_Edition_removed_items#Horse_saddle) for "Horse Saddles"
 - 4 String can now be crafted from a Wool Block (allowing for uncrafting Wool blocks from string)
 
 ### Items
