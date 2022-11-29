@@ -41,6 +41,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
   - *(Note: [A bug with Wither Skeletons always shooting fire arrows](https://bugs.mojang.com/browse/MC-64081) means that for the time being they do not shoot Arrows of Withering, as both Burning and Withering is a bit much, instead they simply drop Arrows of Withering instead)*
 - Withers now escape Bedrock when they reach 50% Health (This is to nerf killing Withers with Bedrock, but still allow the technique to have a use for making the fight easier and to not break redstone machines that rely upon Bedrock cages)
 - When a Squid is damaged it casts Blindness on any entities around them
+- When a Glowsquid is damaged it casts Night Vision on any entities around them
 ---
 ## Todo list
 ### Effects
