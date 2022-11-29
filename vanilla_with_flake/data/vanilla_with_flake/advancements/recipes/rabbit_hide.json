@@ -22,7 +22,7 @@
     },
     "requirements": [
         [
-        "rotten_flesh",
+        "has_rotten_flesh",
         "has_the_recipe"
         ]
     ],
