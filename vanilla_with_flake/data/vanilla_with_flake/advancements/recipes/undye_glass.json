@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_coloured_glass": {
+        "conditions": {
+            "items": [
+            {
+                "tag": "minecraft:coloured_glass"
+            }
+            ]
+        },
+        "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+        "conditions": {
+            "recipe": "vanilla_with_flake:undye_glass"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+        "has_coloured_glass",
+        "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "vanilla_with_flake:undye_glass"
+        ]
+    }
+}
