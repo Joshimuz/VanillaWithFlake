@@ -9,5 +9,6 @@ execute at @s run summon minecraft:wither_skeleton ~ ~ ~ {HandItems:[{id:"minecr
 # Cannot give Wither Skeletons Withering arrows because they always shoot flaming arrows regardless of bow enchantments, and burning + withering is a bit too OP
 #execute at @s run summon minecraft:wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow", Count:1},{id:"minecraft:tipped_arrow", Count:1, tag:{Potion:"minecraft:water",CustomPotionEffects:[{Id:20,Duration:200}]}}], DeathLootTable:"vanilla_with_flake:entities/wither_skeleton_bow"}
 
-# Go away (this instantly despawns the skeleton and any drops)
-teleport ~ 0 ~
+# Go away
+teleport ~ -70 ~
+kill @s
