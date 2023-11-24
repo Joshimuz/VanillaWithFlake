@@ -1,25 +1,34 @@
 {
     "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_leather": {
+        "conditions": {
+            "items": [
+            {
+                "items": [
+                    "minecraft:leather"
+                ]
+            }
+            ]
+        },
+        "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+        "conditions": {
+            "recipe": "vanilla_with_flake:saddle"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+        "has_leather",
+        "has_the_recipe"
+        ]
+    ],
     "rewards": {
         "recipes": [
             "vanilla_with_flake:saddle"
         ]
-    },
-    "criteria": {
-        "has_leather": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:leather"
-                    }
-                ]
-            }
-        }
-    },
-        "requirements": [
-            [
-                "has_leather"
-            ]
-        ]
     }
+}

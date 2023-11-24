@@ -1,13 +1,11 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-        "has_golden_apple": {
+        "has_coloured_glass": {
         "conditions": {
             "items": [
             {
-                "items": [
-                    "minecraft:golden_apple"
-                ]
+                "tag": "minecraft:coloured_glass"
             }
             ]
         },
@@ -15,20 +13,20 @@
         },
         "has_the_recipe": {
         "conditions": {
-            "recipe": "vanilla_with_flake:enchanted_golden_apple"
+            "recipe": "vanilla_with_flake:undye_glass"
         },
         "trigger": "minecraft:recipe_unlocked"
         }
     },
     "requirements": [
         [
-        "has_golden_apple",
+        "has_coloured_glass",
         "has_the_recipe"
         ]
     ],
     "rewards": {
         "recipes": [
-            "vanilla_with_flake:enchanted_golden_apple"
+            "vanilla_with_flake:undye_glass"
         ]
     }
 }

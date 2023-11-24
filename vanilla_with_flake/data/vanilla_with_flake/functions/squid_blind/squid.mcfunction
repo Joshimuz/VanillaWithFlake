@@ -5,6 +5,6 @@
 
 execute store result score @s vwf_squid_hurt run data get entity @s HurtByTimestamp 1
 
-execute at @s if score @s vwf_squid_hurt > @s vwf_prev_squid run effect give @e[distance=..5] minecraft:blindness 2 1 false
+execute at @s if score @s vwf_squid_hurt > @s vwf_prev_squid run effect give @e[distance=..10] minecraft:blindness 2 0 false
 
 execute store result score @s vwf_prev_squid run data get entity @s HurtByTimestamp 1
