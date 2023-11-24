@@ -13,3 +13,4 @@ execute if score 60Seconds vwf_tick matches 60.. run function vanilla_with_flake
 function vanilla_with_flake:spiders_drop_webs/sdw_10second
 function vanilla_with_flake:illusioner/i_10second
 function vanilla_with_flake:only_wither_skeletons/ows_10second
+function vanilla_with_flake:bad_luck_fishing/blf_10second

@@ -16,3 +16,4 @@ function vanilla_with_flake:killer_bunny/kb_1second
 function vanilla_with_flake:squid_blind/sb_1second
 function vanilla_with_flake:only_wither_skeletons/ows_1second
 function vanilla_with_flake:glowsquid_nightvision/gn_1second
+function vanilla_with_flake:bad_luck_fishing/blf_1second
