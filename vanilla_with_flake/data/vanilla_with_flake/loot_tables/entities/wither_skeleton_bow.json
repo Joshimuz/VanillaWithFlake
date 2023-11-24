@@ -97,8 +97,17 @@
 					},
 					{
 						"function": "set_nbt",
-						"tag" :"{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:20,Duration:200}]}"
-						}
+						"tag" :"{custom_potion_effects:[{duration:200, amplifier: 0b, ambient: 0b, show_icon: 1b, id:\"minecraft:wither\", show_particles:1b}],CustomPotionColor:0}"
+          },
+          {
+            "function": "set_name",
+            "name": [
+              {
+                "text": "Arrow of Withering",
+                "italic": false
+              }
+            ]
+          }
 				]
 			}
 		],
