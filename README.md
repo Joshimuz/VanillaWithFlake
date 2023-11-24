@@ -1,5 +1,5 @@
 # VanillaWithFlake
-A Minecraft datapack to make slight tweaks, restore removed/unused content, and other QOL improvements to Vanilla with simplicity and optimisation in mind. This version is made for 1.20+
+A Minecraft datapack to make slight tweaks, restore removed/unused content, and other QOL improvements to Vanilla with simplicity and optimisation in mind. This version is made for 1.20.2+
 
 ## Current change list:
 ### Crafting
