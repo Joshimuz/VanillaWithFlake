@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minecraft:oak_planks"
+    "item": "minecraft:cherry_planks"
   },
-  "result": "minecraft:oak_stairs"
+  "result": "minecraft:cherry_stairs"
 }

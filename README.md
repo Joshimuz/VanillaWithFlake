@@ -8,7 +8,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Leads can also be made with Honey Bottles instead of Slime Balls
 - Paper can now be crafted with Bamboo (3 Bamboo for 1 Paper)
 - Rabbit Hide now has a crafting recipe (9 Rotten Flesh, this allows 36 Rotten Flesh to be crafted into 1 Leather)
-- Saddles now have the [originally intended crafting recipe](https://minecraft.fandom.com/wiki/Java_Edition_removed_items#Horse_saddle) for "Horse Saddles"
+- Saddles now have the [originally intended crafting recipe](https://minecraft.wiki/w/Java_Edition_removed_items#Horse_saddle) for "Horse Saddles"
 - 4 String can now be crafted from a Wool Block (allowing for uncrafting Wool blocks from string)
 
 ### Items
@@ -57,7 +57,7 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Fix Leads breaking when unloaded (If they even still/ever did that?)
 - Implement Missing Potions/Splash Potions/Lingering Potions/Tipped Arrows
 - Implement Rubies
-- Both Blue Orchids and Dandelions give Saturation in the Suspicious Stew, instead make Blue Orchid give a [Health Boost](https://minecraft.gamepedia.com/Java_Edition_unused_features#Health_Boost)?
+- Both Blue Orchids and Dandelions give Saturation in the Suspicious Stew, instead make Blue Orchid give a [Health Boost](https://minecraft.wiki/w/Java_Edition_unused_features#Health_Boost)?
 - Make Wither Skulls less RNG based/more fun to collect?
 - Make Totem of Undying actually useful
   - [This suggestion is one way](https://www.reddit.com/r/minecraftsuggestions/comments/944co2/totems_of_undying_are_not_worth_getting_here_is/)
@@ -76,22 +76,22 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 ## Old changes which were implemented into official release (thus removed from datapack or plans)
 ### Blocks
 - Make Piston a Pickaxe tool block (instead of having no tool needed)
-  - [20w06a](https://minecraft.gamepedia.com/Java_Edition_20w06a) "Pickaxes are now more efficient on pistons"
+  - [20w06a](https://minecraft.wiki/w/Java_Edition_20w06a) "Pickaxes are now more efficient on pistons"
 
 ### Crafting
 - All Stair recipes now yield 8 Stairs instead of 4
-  - [19w04a](https://minecraft.gamepedia.com/19w04a) added Stonecutter which gives 1 Stair for 1 Block
+  - [19w04a](https://minecraft.wiki/w/Java_Edition_19w04a) added Stonecutter which gives 1 Stair for 1 Block
 - Smooth Stone now has a crafting recipe (2 Stone Slabs vertically)
-  - [1.14](https://minecraft.gamepedia.com/Java_Edition_1.14) added this block into survival
+  - [1.14](https://minecraft.wiki/w/Java_Edition_1.14) added this block into survival
 - Leads no longer require Slimeballs, instead need 5 String in the original shape
-  - [1.15](https://minecraft.gamepedia.com/Java_Edition_1.15) added Honey Blocks which is an alternative to Slime Blocks (albeit with slightly different properties) so instead of only requiring string added Honey Bottle as option along with Slime Ball.
+  - [1.15](https://minecraft.wiki/w/Java_Edition_1.15) added Honey Blocks which is an alternative to Slime Blocks (albeit with slightly different properties) so instead of only requiring string added Honey Bottle as option along with Slime Ball.
 
 ### Items
 - Add missing Leather Horse Armour (from Bedrock version)
 
 ### Loot tables
 - Village Blacksmith's chests now contain an *Old Mineshaft Map* (Mineshaft Explorer Map)
-  - [1.14](https://minecraft.gamepedia.com/1.14) changed villages, and removed the generic Blacksmith building
+  - [1.14](https://minecraft.wiki/w/1.14) changed villages, and removed the generic Blacksmith building
   - The map spawn was moved to the Cartographer's building instead
 ---
 ## Current wish-list/not possible list:
