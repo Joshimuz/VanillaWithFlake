@@ -22,7 +22,6 @@ A Minecraft datapack to make slight tweaks, restore removed/unused content, and 
 - Killer Bunnies, in addition to regular Rabbit drops, have a chance to drop Golden Carrots
 - Leads can now be found while Fishing
 - Wither Skeletons spawned wielding a bow in place of regular Skeletons in the Nether now have a chance to drop *Arrows of Withering* when killed by a player
-- Removed Saddles from Fishing's Treasure, Abandoned Mineshaft, Desert Temple, End City, Jungle Temple, Nether Fortress, Dungeon and Stronghold Loot tables. (It remains in Villager Trades, Villager Buildings and Illager Beast loot tables)
 
 ### Mechanics
 - Added Bad Luck mechanic to Fishing 
